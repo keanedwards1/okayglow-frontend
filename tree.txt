@@ -1,0 +1,36 @@
+.
+├── README.md
+├── components
+│   ├── DropdownMenu.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── HomeFeatures.tsx
+│   ├── HomeHero.tsx
+│   ├── HomePress.tsx
+│   ├── HomeReviews.tsx
+│   ├── HomeSustainability.tsx
+│   ├── Layout.tsx
+│   └── QuizQuestion.tsx
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── api
+│   │   └── hello.ts
+│   ├── index.tsx
+│   └── quiz.tsx
+├── postcss.config.mjs
+├── public
+│   └── okay-glow-logo.png
+├── styles
+│   └── globals.css
+├── tailwind.config.ts
+├── tree.txt
+├── tsconfig.json
+└── utils
+    └── trpc.ts
+
+7 directories, 27 files

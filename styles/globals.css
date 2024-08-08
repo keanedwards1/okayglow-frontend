@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #ecd5bd;
+  --color-light-cream: #f2e2d2;
+  --color-dark-cream: #492c0f;
+  --color-brown: #b28058;
+  --color-light-green: #c4cc9b;
+  --color-blue: #40649d;
+  --color-light-gray: #d6d4d2;
+  --color-peach: #edd3b9;
+  --color-pink: #e8b3a8;
+  --color-dark-brown: #997754;
+  --color-light-blue: #a2bcc9;
+  --color-pale-blue: #d7e5e9;
+  --color-tan: #d6af84;
+  --color-dark-green: #1b2320;
+  --color-teal: #2f6d8b;
+  --color-gray: #c4c5c1;
+  --color-dark-blue: #2e3e4c;
+  --color-olive: #86887c;
+  --color-sky-blue: #c4d6ec;
+  --color-navy: #00355d;
+  --color-beige: #e1c59e;
+  --color-seafoam: #7db0a0;
+  --color-mint: #8cbbaf;
+  --color-light-pink: #ebcbc7;
+  --color-background-color: #fdf9f8;
+}
+
+h1, h2 { 
+  font-family: 'Cormorant Garamond', serif; 
+  color: rgb(52, 52, 52);
+}
+
+h3, h4 { 
+  font-family: 'Quicksand', sans-serif; 
+}
+
+body { 
+/*   font-family: 'Source Sans Pro', sans-serif; 
+  background-color: var(--color-background-color); */
+}
+
+h-50vh {
+  height: 50vh;
+}
+
+.accent { 
+  font-family: 'Source Code Pro', monospace; 
+}
+
+h1 { 
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h3 { 
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+body { 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.accent { 
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9rem;
+}
+
+.header-styles {
+  font-family: Quicksand, sans-serif;
+  font-weight: 200;
+  color: #403d3b;
+}
+
+.brand-title {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.hover\:custom-transform:hover {
+  transition: transform 0.2s ease;
+}
+
+.header-get-started {
+  transition: all 0.2s ease;
+}
+
+.header-get-started:hover {
+  background-color: #ebccae;
+  background-color: #f0dac5;
+
+}
+
+.menu-button:hover .menu-svg {
+  transform: scale(1.15) rotate(3deg);
+}
+
+.menu-svg {
+  transition: transform 0.1s ease;
+}
+
+.menu-svg.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.menu-button:hover .menu-svg.rotate-180 {
+  transform: scale(1.15) rotate(180deg); /* 180 - 2 */
+}
+
+.duration-400 {
+  transition-duration: 0.4s;
+}
