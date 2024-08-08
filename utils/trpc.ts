@@ -1,4 +1,4 @@
-// utils/trpc.ts
+/* // utils/trpc.ts
 
 import { createTRPCNext } from '@trpc/next';
 import { httpBatchLink } from '@trpc/client';
@@ -16,4 +16,4 @@ export const trpc = createTRPCNext<AppRouter>({
     };
   },
   ssr: false, // Disable SSR for now to simplify the setup
-});
+}); */
