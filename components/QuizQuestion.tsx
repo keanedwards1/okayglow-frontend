@@ -1,3 +1,5 @@
+// components/QuizQuestion.tsx
+
 type QuizQuestionProps = {
     question: string;
     onAnswer: (answer: string) => void;

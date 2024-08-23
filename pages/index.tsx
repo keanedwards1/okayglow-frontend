@@ -1,3 +1,5 @@
+// pages/index.tsx
+
 import Layout from '../components/Layout'
 import HomeHero from '../components/HomeHero'
 /* import HomeFeatures from '../components/HomeFeatures'

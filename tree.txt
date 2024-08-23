@@ -1,5 +1,6 @@
 .
 ├── README.md
+├── c.sh
 ├── components
 │   ├── DropdownMenu.tsx
 │   ├── Footer.tsx
@@ -15,6 +16,7 @@
 ├── next.config.mjs
 ├── package-lock.json
 ├── package.json
+├── package.txt
 ├── pages
 │   ├── _app.tsx
 │   ├── _document.tsx
@@ -24,7 +26,17 @@
 │   └── quiz.tsx
 ├── postcss.config.mjs
 ├── public
-│   └── okay-glow-logo.png
+│   ├── clear.png
+│   ├── clearish.png
+│   ├── cream-p.png
+│   ├── cream.png
+│   ├── hands-using-korean-skin-care.jpg
+│   ├── hands-using-korean-skincare.webp
+│   ├── lotion.png
+│   ├── okay-glow-logo-bubble.png
+│   ├── okay-glow-logo.png
+│   ├── pearl.png
+│   └── swirl.png
 ├── styles
 │   └── globals.css
 ├── tailwind.config.ts
@@ -33,4 +45,4 @@
 └── utils
     └── trpc.ts
 
-7 directories, 27 files
+7 directories, 39 files
