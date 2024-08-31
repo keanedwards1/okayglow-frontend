@@ -11,7 +11,8 @@
 │   ├── HomeReviews.tsx
 │   ├── HomeSustainability.tsx
 │   ├── Layout.tsx
-│   └── QuizQuestion.tsx
+│   ├── QuizQuestion.tsx
+│   └── QuizQuestionCard.tsx
 ├── next-env.d.ts
 ├── next.config.mjs
 ├── package-lock.json
@@ -33,6 +34,8 @@
 │   ├── hands-using-korean-skin-care.jpg
 │   ├── hands-using-korean-skincare.webp
 │   ├── lotion.png
+│   ├── ocean.jpg
+│   ├── oily.jpg
 │   ├── okay-glow-logo-bubble.png
 │   ├── okay-glow-logo.png
 │   ├── pearl.png
@@ -45,4 +48,4 @@
 └── utils
     └── trpc.ts
 
-7 directories, 39 files
+7 directories, 42 files

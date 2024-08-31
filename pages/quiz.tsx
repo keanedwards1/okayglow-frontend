@@ -22,7 +22,7 @@ const questions: Question[] = [
     text: "How would you describe your skin type?",
     type: "multiple",
     options: [
-      { text: "Oily: Shiny all over, prone to breakouts", image: "/ocean.jpg" },
+      { text: "Oily: Shiny all over, prone to breakouts", image: "/oily.jpg" },
       { text: "Dry: Tight, flaky, sometimes rough", image: "/ocean.jpg" },
       { text: "Combination: Oily T-zone, normal or dry cheeks", image: "/ocean.jpg" },
       { text: "Sensitive: Easily irritated, prone to redness", image: "/ocean.jpg" },
@@ -337,7 +337,7 @@ const SkincareQuiz: React.FC = () => {
         </p>
       </div>
       
-      <div className="flex-grow p-6">
+      <div className="flex-grow text-center p-6">
         <QuizQuestionCard
           question={currentQuestion.text}
           options={currentQuestion.options}
